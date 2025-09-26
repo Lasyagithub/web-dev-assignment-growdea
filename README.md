@@ -10,8 +10,15 @@ This is my submission for the Growdea Web Developer Intern task.
 - Download button for PDF output
 
 ## Run Instructions
+###Frontend 
+
+cd frontend
+npm install
+npm start
+
 ### Backend
 ```bash
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload --host 127.0.0.1 --port 8000
+
