@@ -1,0 +1,18 @@
+/* App.css */
+
+/* Smooth transition for theme */
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Scrollbar styling (optional for polish) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 116, 139, 0.5);
+  border-radius: 10px;
+}
